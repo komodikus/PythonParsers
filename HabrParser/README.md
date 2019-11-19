@@ -1,36 +1,36 @@
 Habr parses
 =====================
-Выводит на экран самые используемые существительные в статьях расположенных на n страницах Хабра.
+Displays the most used nouns in articles located on n pages of Habr.
 
 ![Описание проекта](http://picua.org/img/2017-04/27/5i4u3amhjov9hkmcy0knrgfco.jpg)
 
-Установка
+Install
 -----------------------------------
-сохранить https://github.com/komodikus/otus-1-lesson-dz
+git clone https://github.com/komodikus/PythonParsers/tree/master/HabrParser
 
 Как использовать
 -----------------------------------
 ![чето_там](http://s8.favim.com/orig/141228/gif-puppy-Favim.com-2342718.gif)
-1) Запустить parsing_habr.py любым удобным способом
-2) Ввести число необходимых для парсинга страниц
+1) Run parsing_habr.py 
+2) Input count parsing pages
 3) ???
-4) Профит
+4) Profit
 
-Или
+Or
 
-1) Запустить сразу с необходимым параметром (python parsing_habr.py 20 - спарсит 20 стр.)
+1) Run with param (python parsing_habr.py 20 - 20 num of pages.)
 3) ???
-4) Профит
+4) Profit
 
-Как поместить загруженные данные в базу данных
+How to put downloaded data into a database
 -----------------------------------
-Если вам надо поместить загруженные данные в базу данных, то:
-1) Раскоментируйте класс
-2) Раскоментируйте функцию create_db_item
-3) Раскоментируйте импорт пакета peewee
-4) Раскоментируйте все закоментированые значения в функции main
+If you need to put the downloaded data into the database, then:
+1) Uncomment the class
+2) Uncomment the create_db_item function
+3) Uncomment the import of the peewee package
+4) Uncomment all commented values ​​in the main function
 
-Зависимости
+Dependencies
 -----------------------------------
 * Python 3+
 * pymorphy2
@@ -38,18 +38,19 @@ Habr parses
 * peewee
 * bs4
 
-Пример использования
+Usage example
 -----------------------------------
 ```
 
 python parsing_habr.py
 ```
 
-Введите количество страниц для парсинга
+
+Enter the number of parsing pages
 
 > 2
 
-Вывод:
+Output:
 
 ```
 Неделя с 2018-04-23 по 2018-04-29
@@ -59,7 +60,7 @@ python parsing_habr.py
 ```
 
 
-Спасибо за чтение!
+Thanks for reading!
 -----------------------------------
 
 
